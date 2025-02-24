@@ -6,6 +6,7 @@ export default function AppProducts() {
   return (
     <div>
       {showProducts && <Products />}
+      <p>CI/CD Test</p>
       <button onClick={() => setShowProducts((show) => !show)}>Toggle</button>
     </div>
   );
